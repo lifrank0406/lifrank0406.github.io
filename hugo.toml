@@ -5,30 +5,12 @@ theme = "PaperMod"
 enableRobotsTXT = true
 [params]
 	showReadingTime = true
-    # homeInfoParams.Title = 'Hi there!'
-    # homeInfoParams.Content = "Notes, projects, blog."
-	# [[params.socialIcons]]
+    homeInfoParams.Title = 'Hi there!'
+	![Me](/dog.jpg)
+    homeInfoParams.Content = "Notes, projects, blog."
+	[[params.socialIcons]]
 		# name = "github"
 		# url  = "https://github.com/lifrank0406"
-	# [[params.socialIcons]]
-		# name = "LinkedIn"
-		# url  = "https://www.linkedin.com/in/frank-li-0b82b71a1/"
-	[params.profileMode]
-		enabled = true
-		title   = "Frank Li"
-		subtitle= "Notes • Projects"
-		imageUrl = "/dog.jpg"
-		imageTitle = "Frank"
-		imageWidth = 160
-		imageHeight = 160
-
-		[[params.profileMode.buttons]]
-			name = "Posts"
-			url  = "/posts/"
-	
-		[[params.socialIcons]]
-			name = "github"
-			url  = "https://github.com/lifrank0406"
-		[[params.socialIcons]]
-			name = "LinkedIn"
-			url  = "https://www.linkedin.com/in/frank-li-0b82b71a1/"
+	[[params.socialIcons]]
+		name = "LinkedIn"
+		url  = "https://www.linkedin.com/in/frank-li-0b82b71a1/"
