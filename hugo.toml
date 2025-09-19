@@ -10,11 +10,7 @@ showReadingTime = true
 disableAnchoredHeadings = true
 [params.homeInfoParams]
 Title = 'Hi there!'
-Content = """
-![Me](/dog.jpg)
-
-Here are some things I've worked on and thought about!
-"""
+Content = 'Here are some things I've worked on and thought about!'
 [[params.socialIcons]]
 name = "github"
 url  = "https://github.com/lifrank0406"

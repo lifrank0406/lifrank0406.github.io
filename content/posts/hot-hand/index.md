@@ -4,7 +4,8 @@ draft = false
 title = 'Does the “hot hand” exist in the NBA? An in-depth analysis of the 2014–16 Splash Brothers'
 +++
 
-![Steph Curry and Klay Thompson](steph_and_klay.jpg)
+{{< figure src="steph_and_klay.jpg" alt="Steph Curry and Klay Thompson" caption="Steph Curry and Klay Thompson" >}}
+	
 
 Defining the so-called “hot hand”
 ---------------------------------
@@ -33,7 +34,7 @@ Scraping the data
 
 We use the ESPN database of previous NBA games from the 2014–2016 NBA seasons, consisting of four databases: the Warrior’s [2015 regular season](https://www.espn.com/nba/team/schedule/_/id/9/season/2015/seasontype/2), [2015 postseason](https://www.espn.com/nba/team/schedule/_/id/9/season/2015), [2016 regular season](https://www.espn.com/nba/team/schedule/_/id/9/season/2016/seasontype/2), and [2016 postseason](https://www.espn.com/nba/team/schedule/_/id/9/season/2016) . From here, we scrape the complete play-by-play data for each game: for each play, we scrape its game time, play details, and the score at the time of the play.
 
-![An example of a play-by-play on ESPN](play_by_play.jpg)
+{{< figure src="play_by_play.jpg" alt="ESPN play-by-play" caption="An example of a play-by-play on ESPN" >}}
 
 Three Pointers
 ==============
@@ -42,21 +43,22 @@ We begin our analysis on solely three-pointers, our rationale being that three�
 
 Let’s first take a look at Steph Curry:
 
-![The first few rows of Curry’s three-point attempts in 2014–2016](curry1.jpg)
+{{< figure src="curry1.jpg" alt="Curry 3-point attempts, table" caption="The first few rows of Curry’s three-point attempts in 2014–2016" >}}
+
 
 Notably, the ‘one_’, ‘two_’, and ‘three_minus’ columns denote if for that shot attempt, Curry had **missed** his _n_ previous consecutive 3-point attempts that game; likewise, the ‘one’, ‘two’, and ‘three_plus’ columns denote if for that 3-point attempt, Curry had **made** his _n_ previous consecutive 3-point attempts that game. Here’s some of Steph Curry’s 3-point attempts where he had made his previous 3 or more 3-pointers, e.g. when he was on fire!
 
-![First few rows of Curry’s 3-point attempts, given 3+ prior consecutive 3-point makes](curry2.jpg)
+{{< figure src="curry2.jpg" alt="Curry 3-point makes, table" caption="First few rows of Curry’s 3-point attempts, given 3+ prior consecutive 3-point makes" >}}
 
 We return to our complete table of Curry’s three point attempts and find conditional 3-point percentages:
 
-![Curry’s 3-point %’s conditional on prior attempts for the 14–15 and 15–16 seasons](curry3.jpg)
+{{< figure src="curry3.jpg" alt="Curry conditional 3-point percentages, table" caption="Data includes the 14–15 and 15–16 seasons" >}}
 
 Although there is far from a perfect trend, there seems to be somewhat of an increase in the percentages as we move from more 3-point misses prior to the attempt to more makes. Interestingly, Curry seems to shoot significantly better than his average after missing two of his previous shots, but far worse if it was 3 or more consecutive shots. If we can take away anything, we posit that Curry may exhibit an “extremely-cold-hand” effect, where it takes numerous (>3) misses to affect his shooting significantly.
 
 We now conduct similar analysis on the other Splash Bro, Klay Thompson:
 
-![Thompson’s 3-point %’s conditional on prior attempts for the 14–15 and 15–16 seasons](klay.jpg)
+{{< figure src="klay.jpg" alt="Thompson conditional 3-point percentages, table" caption="Data includes the 14–15 and 15–16 seasons" >}}
 
 Strikingly, the most obvious trend is Thompson’s significantly higher percentages after he has missed 3 consecutive three’s; then, we notice that his shooting percentage after exactly one miss seems to be lower than average. For Klay, it is hard to conclude that there is any hot-hand effect at all. Rather, one explanation for this pattern could be the perception of “being due” — after missing many shots in a row, shooters often believe they are “due” to make one and get back on track. Although this is a statistical fallacy, it could be this mental impression that increases Thompson’s accuracy for these attempts.
 
@@ -71,8 +73,8 @@ We begin by pulling in other factors from the play details, including:
 
 We might expect “hotter” shooters to feel more confident and thus shoot from deeper; is this confirmed by the data?
 
-![Curry’s average three-point attempt distance, conditional on prior attempts](green1.jpg)
-![The same data as above for Thompson](green2.jpg)
+{{< figure src="green1.jpg" alt="Curry 3-point attempt distances, table" caption="Curry’s average three-point attempt distance, conditional on prior attempts" >}}
+{{< figure src="green2.jpg" alt="Thompson 3-point attempt distances, table" caption="Same data as above for Thompson" >}}
 
 As we would expect, there seems to be an increased average attempt distance for the shots taken after 3+ consecutive makes, for both Curry and Thompson, something that is also fairly consistent throughout both years.
 
@@ -80,7 +82,7 @@ As we would expect, there seems to be an increased average attempt distance for 
 
 Next, we try to see if a shorter time since the last made attempt increases shooting percentage, as there is less time for the shooter to “cool off”. As usual, we begin with Curry:
 
-![Time since last 3-point make for all attempts, made attempts, and missed attempts](red1.jpg)
+{{< figure src="red1.jpg" alt="Curry time since last 3-point make" caption="For all attempts, made attempts, and missed attempts" >}}
 
 To begin, we see that for any given shot attempt, we would have to go back about 470 seconds (~8 minutes) to find our most recent made 3-pointer; is this longer than what we would have expected? We then clearly see that across all years, successful attempts occur closer to the last make than missed attempts, validating our hypothesis.
 
@@ -90,13 +92,13 @@ Though Thompson’s attempts are on average further from his most recent make, w
 
 *   **If the three-pointer was assisted**
 
-![Curry’s percentage of assisted 3-pointers, conditional on prior attempts](blue1.jpg)
+{{< figure src="blue1.jpg" alt="Curry’s percentage of assisted 3-pointers, table" caption="Across all makes, how many were assisted?" >}}
 
 To interpret our data, as an example the top-right cell indicates that out of all Curry’s three-point makes where had made his 3+ prior 3-point attempts, Curry was assisted on 41.51% of those shots.
 
 As we go from 1 to 3+ makes in a row, we notice that the assisted percentage decreases across both years; the story behind this is that as Curry “heats up”, he begins to let it fly more, e.g. a “heat check”. This is also supported by our previous finding that these three’s tend to be further by distance.
 
-![Thompson’s percentage of assisted 3-pointers, conditional on prior attempts](blue2.jpg)
+![Thompson’s percentage of assisted 3-pointers, table](blue2.jpg)
 
 Firstly, Thompson rarely takes un-assisted three pointers! There is a stark difference between Curry ‘s overall ~60% assisted rate, and Thompson’s ~90% rate. Then, we notice the same effect as we observed for Curry only for the 2015 season (83.78% → 93.34% → 100%), but not for the other year. We attribute this to the fact that nearly all of Thompson’s 3-pointers are assisted in the first place.
 
@@ -105,6 +107,7 @@ Firstly, Thompson rarely takes un-assisted three pointers! There is a stark diff
 Finally, we are curious on knowing: for all shots attempted after a successful shot, does _how far_ the previous make was from impact the shooting percentage of the next 3-point attempt?
 
 ![Data is from both the 14–15 and 15–16 seasons](bar1.jpg)
+{{< figure src="bar1.jpg" alt="Curry 3-point percentages by distance of last make, table" caption="Data is from both the 14–15 and 15–16 seasons" >}}
 ![Same bar chart for Thompson](bar2.jpg)
 
 If anything, there is a negative effect for Curry — this could be explained by poor shot choice, where making his previous attempt from deeper could be influencing him to take more difficult shots. There is no strong trend for Thompson’s shooting, but at the very least he seems to shoot the best when his previous makes were further out — a “hot-hand effect” of sorts.
@@ -128,7 +131,7 @@ After taking a good look at the data, **we cannot conclude that a free-throw “
 
 For fun, we also throw in some analysis of Draymond Green, a historically less accurate free-throw shooter:
 
-![Green averaged 3.3 FT attempts/game throughout the two seasons](draymond.jpg)
+{{< figure src="draymond.jpg" alt="Same table for Thompson" caption="Green averaged 3.3 FT attempts/game throughout the two seasons" >}}
 
 Similarly, there is no concrete increase in percentages as we move from consecutive misses to makes.
 
