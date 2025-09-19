@@ -4,7 +4,7 @@ draft = false
 title = 'Does the “hot hand” exist in the NBA? An in-depth analysis of the 2014–16 Splash Brothers'
 +++
 
-![Steph Curry and Klay Thompson](steph_and_klay.png)
+![Steph Curry and Klay Thompson](/steph_and_klay.png)
 Defining the so-called “hot hand”
 ---------------------------------
 
