@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Frank Li"
 theme = "PaperMod"
 enableRobotsTXT = true
+[markup.goldmark.renderer]
+unsafe = true
 [params]
 showReadingTime = true
 disableAnchoredHeadings = true
@@ -10,6 +12,7 @@ disableAnchoredHeadings = true
 Title = 'Hi there!'
 Content = """
 ![Me](/dog.jpg)
+
 Here are some things I've worked on and thought about!
 """
 [[params.socialIcons]]
