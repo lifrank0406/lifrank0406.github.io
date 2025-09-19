@@ -1,4 +1,7 @@
 baseURL = "https://lifrank0406.github.io/"
 languageCode = "en-us"
-title = "My Awesome Site"
+title = "Frank Li"
 theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+showReadingTime = true
