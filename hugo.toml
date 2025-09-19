@@ -2,6 +2,13 @@ baseURL = "https://lifrank0406.github.io/"
 languageCode = "en-us"
 title = "Frank Li"
 theme = "PaperMod"
-paginate = 10
 enableRobotsTXT = true
-showReadingTime = true
+[params]
+	showReadingTime = true
+	homeInfoParams:
+    Title: Hi there wave
+    Content: Can be Info, links, about...
+
+    socialIcons:
+		- name: "LinkedIn"
+		url: "https://www.linkedin.com/in/frank-li-0b82b71a1/"
