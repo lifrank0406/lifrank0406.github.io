@@ -22,7 +22,7 @@ Rather than delve into the entire history of basketball, we limit the scope of o
 The 2014–2016 Golden State Warriors
 -----------------------------------
 
-![The 2014–2015 NBA champions](champs.jpg)
+{{< figure src="champs.jpg" alt="Warriors team photo" caption="The 2014–2015 NBA champions" >}}
 
 This 2014–16 Warriors squad is notable for many reasons: in the course of these two NBA seasons, the Warriors were lead by the two-time league MVP, sported two of the league’s top four 3-point shooters by percentage (who also broke the record for threes made by a pair of teammates in a season), won their way to a historic 73–9 record, not to mention taking home the 2015 NBA championship.
 
