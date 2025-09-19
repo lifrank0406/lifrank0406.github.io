@@ -5,10 +5,11 @@ theme = "PaperMod"
 enableRobotsTXT = true
 [params]
 	showReadingTime = true
-	homeInfoParams:
-    Title: Hi there wave
-    Content: Can be Info, links, about...
-
-    socialIcons:
-		- name: "LinkedIn"
-		url: "https://www.linkedin.com/in/frank-li-0b82b71a1/"
+    homeInfoParams.Title = 'Hi there!'
+    homeInfoParams.Content = "Notes, projects, blog."
+	[[params.socialIcons]
+		name = "github"
+		url  = "https://github.com/lifrank0406"
+	[[params.socialIcons]
+		name = "LinkedIn"
+		url  = "https://www.linkedin.com/in/frank-li-0b82b71a1/"
