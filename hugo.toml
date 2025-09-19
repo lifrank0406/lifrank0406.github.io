@@ -7,9 +7,9 @@ enableRobotsTXT = true
 	showReadingTime = true
     homeInfoParams.Title = 'Hi there!'
     homeInfoParams.Content = "Notes, projects, blog."
-	[[params.socialIcons]
+	[[params.socialIcons]]
 		name = "github"
 		url  = "https://github.com/lifrank0406"
-	[[params.socialIcons]
+	[[params.socialIcons]]
 		name = "LinkedIn"
 		url  = "https://www.linkedin.com/in/frank-li-0b82b71a1/"
