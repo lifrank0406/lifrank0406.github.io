@@ -6,6 +6,7 @@ title = 'Does the “hot hand” exist in the NBA? An in-depth analysis of the 2
 
 {{< figure src="steph_and_klay.jpg" alt="Steph Curry and Klay Thompson" caption="Steph Curry and Klay Thompson" >}}
 	
+*(This was a project for a class on data analytics)*
 
 Defining the so-called “hot hand”
 ---------------------------------
