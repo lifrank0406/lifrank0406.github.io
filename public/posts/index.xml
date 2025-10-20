@@ -4,10 +4,31 @@
     <title>Posts on Frank Li</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Frank Li</description>
-    <generator>Hugo -- 0.150.0</generator>
+    <generator>Hugo -- 0.151.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Sep 2025 16:58:03 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a pitch trainer</title>
+      <link>http://localhost:1313/posts/pp-trainer/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pp-trainer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Building a sports Wordle game</title>
+      <link>http://localhost:1313/posts/sports-trivia-game/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sports-trivia-game/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jane Street puzzles (the ones I find interesting)</title>
+      <link>http://localhost:1313/posts/js-puzzles/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/js-puzzles/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Harry Potter (hehehehaw)</title>
       <link>http://localhost:1313/posts/harry-potter/harry-potter/</link>
@@ -24,18 +45,39 @@
 &lt;p&gt;But Harry Potter isn’t real!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/my-first-post/</link>
-      <pubDate>Thu, 18 Sep 2025 16:58:03 -0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/my-first-post/</guid>
-      <description>&lt;p&gt;Tingus Pingus&lt;/p&gt;</description>
+      <title>Modelling NBA player props</title>
+      <link>http://localhost:1313/posts/nba-betting/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nba-betting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Is the NBA lottery rigged?</title>
+      <link>http://localhost:1313/posts/lottery/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/lottery/</guid>
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;lottery.jpg&#34;
+         alt=&#34;The Dallas Mavericks winning the 2025 NBA draft lottery&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;2025 Draft Lottery&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Following the 2025 NBA draft lottery that saw the Dallas Mavericks win the number one overall pick, the sports world was abuzz with claims that the lottery was rigged. Not only were the odds tiny (1.8%), but months before the Mavs had also puzzlingly traded superstar Luka Doncic to the Lakers, the NBA&amp;rsquo;s most marketable team. This isn&amp;rsquo;t without precedent either - conspiracies arose in the 1985 Draft Lottery, when the New York Knicks were awarded the 1st pick following an &lt;a href=&#34;https://en.wikipedia.org/wiki/1985_NBA_draft#Conspiracy_theories_about_the_first_pick&#34;&gt;enevelope debacle&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Does the “hot hand” exist in the NBA? An in-depth analysis of the 2014–16 Splash Brothers</title>
       <link>http://localhost:1313/posts/hot-hand/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hot-hand/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Steph Curry and Klay Thompson&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/posts/hot-hand/steph_and_klay.jpg&#34;&gt;&lt;/p&gt;
+      <description>&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;steph_and_klay.jpg&#34;
+         alt=&#34;Steph Curry and Klay Thompson&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Steph Curry and Klay Thompson&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;(This was a project for a class on data analytics)&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;defining-the-so-called-hot-hand&#34;&gt;Defining the so-called “hot hand”&lt;/h2&gt;
 &lt;p&gt;The hot hand is an age-old basketball trope, where it is conventional knowledge that a shooter who has made multiple consecutive shots is more likely to make his next shot, as he is in the zone! It then takes a slew of missed shots to then cool him back down. This thinking is still prevalent in modern-day sports — from a recent article from CBS Sports on an upcoming 2021 playoff match between the Bucks and Celtics, the author writes:&lt;/p&gt;</description>
     </item>

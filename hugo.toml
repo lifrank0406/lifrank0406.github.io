@@ -8,6 +8,7 @@ unsafe = true
 [params]
 showReadingTime = true
 disableAnchoredHeadings = true
+math = true
 [params.homeInfoParams]
 Title = 'Hi there!'
 Content = "Here are some things I've worked on and thought about!"
