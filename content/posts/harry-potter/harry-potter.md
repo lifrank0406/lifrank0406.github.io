@@ -25,7 +25,7 @@ Well yes obviously, but doesn’t something feel intuitively appealing about thi
 Harry Potter is real **in some different ‘dimension’** – his experience and consciousness are real but not observable from our ‘dimension’. God is on a higher/different ‘dimension’ than us, we are on a higher/different dimension than fictional characters we create. This is inherently an unprovable claim, and also very meta; ‘You must assert that our deeply felt reality is just one "level" among many.’
 
 
-    If a god is real, who cannot be *physicall*y measured or observed, is this kind of like another ‘level’ of reality? Is the domain of imagination, where fictional characters exist, another ‘level’ of reality?
+    If a god is real, who cannot be physically measured or observed, is this kind of like another ‘level’ of reality? Is the domain of imagination, where fictional characters exist, another ‘level’ of reality?
 
 Anyways if this is the case, we have that:
 
@@ -75,18 +75,14 @@ To be specific, we have:
 What is the relation between the shared characteristic and the claim, for an analogy to be effective?
 
 
-    Analogies are not a form of strict, deductive proof (like a mathematical theorem). They are a powerful form of inductive reasoning. They don't guarantee a conclusion is true, but they argue that it is *probable *or *plausible*.
+    Analogies are not a form of strict, deductive proof (like a mathematical theorem). They are a powerful form of inductive reasoning. They don't guarantee a conclusion is true, but they argue that it is probable *or plausible.
 
-
-    …
-
-
-    The "therefore" in your structure logically makes sense only if the shared connection (C) is **directly relevant** to the intuition or property (P) you are trying to transfer from X to Y.
+    The "therefore" in your structure logically makes sense only if the shared connection (C) is directly relevant** to the intuition or property (P) you are trying to transfer from X to Y.
 
 So unfortunately, I think you have to question/break down the source of our intuition… What are the **relevant** characteristics to our intuition-based property? Before even bringing God into the picture, what about J.K. Rowling makes our intuition absolve her of any wrongdoing?
 
 
-    Your entire argument—as powerful as it is—hinges on whether your initial intuition holds up under pressure. Is our absolution of an author an absolute principle for all creators, or is it conditional on the non-sentience of their characters?
+    Your entire argument — as powerful as it is — hinges on whether your initial intuition holds up under pressure. Is our absolution of an author an absolute principle for all creators, or is it conditional on the non-sentience of their characters?
 
 This is not a proof, but my strong suspicion is that our intuition is mostly grounded in the latter: Harry Potter lacks something humans have, whether it be realness, consciousness, or physical substance, and it is this difference that explains the intuition. Then, J.K. Rowling is not analogous to God, and the analogy doesn’t hold. This was indeed the common-sense answer all along, but I needed to formalize this logic and learn how to use analogies properly.
 
