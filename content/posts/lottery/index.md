@@ -41,4 +41,7 @@ But how ~unlikely~ is this? Any single lottery outcome will have a low percentag
 
 So around 40x less likely than the most likely single outcome, which still doesn't tell us much.
 
-What if we simulate this across many trials, and see how many of these trials would be less likely than our actual outcome ($P_{2025} = 0.002146\%$)?
+What if we simulate this across many trials - each 'trial' is a lottery drawing with the odds - and see how many of these trials would be more likely than our actual outcome ($P_{2025} = 0.002146\%$)?
+
+{{< figure src="monte_carlo.jpg" alt="Plot of Monte Carlo simulation frequencies" caption="Monte Carlo simulation" >}}
+
